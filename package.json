@@ -10,8 +10,12 @@
     "license": "ISC",
     "description": "Criando API REST com Node.js",
     "devDependencies": {
+        "@types/express": "^5.0.0",
         "@types/node": "^22.10.5",
         "tsx": "^4.19.2",
         "typescript": "^5.7.3"
+    },
+    "dependencies": {
+        "express": "^4.21.2"
     }
 }
