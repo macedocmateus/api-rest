@@ -4,13 +4,14 @@
     "main": "./src/server.js",
     "type": "module",
     "scripts": {
-        "dev": ""
+        "dev": "tsx watch ./src/server.ts"
     },
     "author": "Mateus de Castro Macedo",
     "license": "ISC",
     "description": "Criando API REST com Node.js",
     "devDependencies": {
         "@types/node": "^22.10.5",
+        "tsx": "^4.19.2",
         "typescript": "^5.7.3"
     }
 }
