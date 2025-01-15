@@ -22,7 +22,7 @@ app.post('/products', myMiddleware, (request, response) => {
 
     // response.send(`O produto ${name} custa ${price} reais`);
 
-    response.status(201).json({ name, price });
+    response.status(201).json({ name, price, user_id: request.user_id });
 });
 
 app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
