@@ -4,7 +4,7 @@ import { myMiddleware } from '../middlewares/my-middleware';
 
 const productsRoutes = Router();
 
-productsRoutes.get('/:id', (request, response) => {
+productsRoutes.get('/', (request, response) => {
     const { page, limit } = request.query;
 
     response.send(`Página ${page} de ${limit}`);
