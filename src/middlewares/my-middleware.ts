@@ -7,7 +7,5 @@ export function myMiddleware(
 ) {
     request.user_id = '1234567';
 
-    console.log('Passou pelo middleware');
-
     return next();
 }
